@@ -1,0 +1,218 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumière Velas Aromáticas</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fdf6f3;
+    color: #5a4a4a;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+}
+
+nav h1 {
+    font-family: 'Playfair Display', serif;
+    color: #d8a7b1;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    background: linear-gradient(rgba(255,240,245,0.6), rgba(255,240,245,0.6)),
+    url('https://images.unsplash.com/photo-1603006905003-be475563bc59') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.frase {
+    background: #fff0f5;
+    font-style: italic;
+}
+
+/* GRID */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    width: 230px;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* BOTON */
+.btn {
+    margin-top: 10px;
+    background: #d8a7b1;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background: #f3d6db;
+    text-align: center;
+    padding: 20px;
+}
+
+/* WHATSAPP */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #e8b4bc;
+    color: white;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <h1>Lumière</h1>
+</nav>
+
+<section class="hero">
+    <div>
+        <h2>Luz de Jesús</h2>
+        <p>Jesús, amamos tu luz ✨</p>
+    </div>
+</section>
+
+<section class="section frase">
+    <p>"Tu palabra es una lámpara a mis pies y una luz en mi camino."</p>
+</section>
+
+<section class="section">
+    <h2>¿Qué es Lumière?</h2>
+    <p>Lumière significa luz. Representa la presencia de Dios en cada espacio a través de nuestras velas.</p>
+</section>
+
+<section class="section">
+    <h2>Nuestra esencia</h2>
+    <p>Velas hechas con cera natural, fragancias orgánicas y pabilo de algodón 🤍</p>
+</section>
+
+<section class="section">
+    <h2>Fragancias</h2>
+    <div class="grid">
+        <div class="card"><h3>Coco & Naranja</h3></div>
+        <div class="card"><h3>Cedro & Limón</h3></div>
+        <div class="card"><h3>Mango & Naranja</h3></div>
+        <div class="card"><h3>Peonía Rosa</h3></div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Colección</h2>
+    <div class="grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6">
+            <h3>Velas en bambú</h3>
+            <a href="https://wa.me/573167927990?text=Hola%20quiero%20vela%20en%20bambú%20Lumière" target="_blank">
+                <button class="btn">Comprar</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1612197529324-8c2f7db1d0f4">
+            <h3>Velas en concreto</h3>
+            <a href="https://wa.me/573167927990?text=Hola%20quiero%20vela%20en%20concreto%20Lumière" target="_blank">
+                <button class="btn">Comprar</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1590086782792-42dd2350140d">
+            <h3>Moldes por unidad</h3>
+            <a href="https://wa.me/573167927990?text=Hola%20quiero%20molde%20Lumière" target="_blank">
+                <button class="btn">Comprar</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b">
+            <h3>Set de moldes</h3>
+            <a href="https://wa.me/573167927990?text=Hola%20quiero%20set%20de%20moldes%20Lumière" target="_blank">
+                <button class="btn">Comprar</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1603575448360-153f093fd0bb">
+            <h3>Ramos</h3>
+            <a href="https://wa.me/573167927990?text=Hola%20quiero%20ramo%20Lumière" target="_blank">
+                <button class="btn">Comprar</button>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1610701596061-2ecf227e85b2">
+            <h3>Recordatorios</h3>
+            <a href="https://wa.me/573167927990?text=Hola%20quiero%20recordatorios%20Lumière" target="_blank">
+                <button class="btn">Comprar</button>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Lumière - Hecho con amor, fe y propósito 🤍</p>
+</footer>
+
+<a href="https://wa.me/573167927990?text=Hola%20quiero%20información%20sobre%20Lumière%20✨" class="whatsapp" target="_blank">
+💬
+</a>
+
+</body>
+</html>
+```
